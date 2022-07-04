@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN">
+    <appenders>
+        // main WARN No Root logger was configured, система ругается без него ждет его по умолчанию
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+        <File name="Search" fileName="logs/search.log" immediateFlush="true" append="false">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+        <File name="Input_errors" fileName="logs/input_errors.log" immediateFlush="true" append="false">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+        <File name="Exceptions" fileName="logs/exceptions.log" immediateFlush="true" append="false">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+
+
+    </appenders>
+    <loggers>
+        <root>//main WARN No Root logger was configured, creating default ERROR-level Root logger with Console appender
+        </root>//сделал пустой рут лог что бы ide не ругалась
+
+        <logger name="Input_errors" level="info">
+            <appender-ref ref="Input_errors"/>
+        </logger>
+        <logger name="Search" level="info">
+            <appender-ref ref="Search"/>
+        </logger>
+        <logger name="Exceptions" level="info">
+            <appender-ref ref="Exceptions"/>
+        </logger>
+
+    </loggers>
+</configuration>
