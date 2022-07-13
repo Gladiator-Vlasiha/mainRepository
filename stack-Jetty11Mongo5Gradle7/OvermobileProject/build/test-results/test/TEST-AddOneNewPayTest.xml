@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AddOneNewPayTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-09T13:38:25" hostname="DESKTOP-AFTPRPB" time="3.315">
+  <properties/>
+  <testcase name="addOneNewPayTest" classname="AddOneNewPayTest" time="3.315"/>
+  <system-out><![CDATA[* РќР°СЃС‚СЂРѕР№РєРё СѓСЃРїРµС€РЅРѕ РїРѕР»СѓС‡РµРЅС‹
+22/07/09 20:38:28 INFO root: * Checking if there is a payment by ID
+22/07/09 20:38:28 INFO root: * There is no such payment in the database, we create a new record
+22/07/09 20:38:28 INFO root: * Pay  id "2, userId 2, sum 2", add in DB.
+]]></system-out>
+  <system-err><![CDATA[июл. 09, 2022 8:38:28 PM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+июл. 09, 2022 8:38:28 PM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 30000 ms before timing out
+июл. 09, 2022 8:38:28 PM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:1, serverValue:531}] to 127.0.0.1:27017
+июл. 09, 2022 8:38:28 PM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 9]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3271300}
+июл. 09, 2022 8:38:28 PM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:2, serverValue:532}] to 127.0.0.1:27017
+]]></system-err>
+</testsuite>

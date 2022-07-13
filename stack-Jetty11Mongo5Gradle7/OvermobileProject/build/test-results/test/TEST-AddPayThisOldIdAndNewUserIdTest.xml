@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AddPayThisOldIdAndNewUserIdTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-09T13:38:31" hostname="DESKTOP-AFTPRPB" time="3.022">
+  <properties/>
+  <testcase name="addPayThisOldIdAndNewUserIdTest" classname="AddPayThisOldIdAndNewUserIdTest" time="3.022"/>
+  <system-out><![CDATA[22/07/09 20:38:34 INFO root: * Checking if there is a payment by ID
+22/07/09 20:38:34 INFO root: * The id and userId match, we do nothing
+Р—Р°РїРёСЃСЊ СѓР¶Рµ РµСЃС‚СЊ РІ Р±Р°Р·Рµ c  С‚Р°РєРёРј id Рё userId - 2 - 2
+22/07/09 20:38:34 INFO root: * Checking if there is a payment by ID
+22/07/09 20:38:34 INFO root: * Different userids record the payment with a new id
+22/07/09 20:38:34 INFO root: * last id =2
+22/07/09 20:38:34 INFO root: * Pay  id "3, userId 3, sum 2", add in DB.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
